@@ -14,7 +14,7 @@ const RootPage = () => {
     onOpen()
   }
   }, [onOpen, isOpen])
-  return <div className="p-6">RootPage</div>;
+  return null;
 };
 
 export default RootPage;
